@@ -15,7 +15,8 @@
     "Viktor Havrylin <fer0x.feo@gmail.com>"
   ],
   "dependencies": {
-    "line-reader": "^0.2.4"
+    "line-reader": "^0.2.4",
+    "semver": "^5.0.3"
   },
   "devDependencies": {
     "standard": "^4.5.4",
