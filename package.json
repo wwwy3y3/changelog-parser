@@ -1,29 +1,23 @@
 {
-  "name": "changelog-parser",
+  "name": "changelog-parser2",
   "description": "Change log parser for node.",
-  "version": "2.0.2",
-  "author": "Nate Goldman <nate@ngoldman.me>",
-  "bin": {
-    "changelog-parser": "./bin/cli.js"
-  },
+  "version": "0.0.1",
+  "author": "wwwy3y3",
   "bugs": {
-    "url": "https://github.com/ngoldman/changelog-parser/issues"
+    "url": "https://github.com/wwwy3y3/changelog-parser/issues"
   },
-  "contributors": [
-    "Nate Goldman <nate@ngoldman.me>",
-    "Rachel Nehmer <kneemer@gmail.com>",
-    "Viktor Havrylin <fer0x.feo@gmail.com>"
-  ],
   "dependencies": {
-    "line-reader": "^0.2.4",
-    "semver": "^5.0.3"
+    "bluebird": "^2.10.2",
+    "moment": "^2.10.6",
+    "semver": "^5.0.3",
+    "string-to-stream": "^1.0.1"
   },
   "devDependencies": {
     "standard": "^4.5.4",
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/ngoldman/changelog-parser",
+  "homepage": "https://github.com/wwwy3y3/changelog-parser",
   "keywords": [
     "CHANGELOG.md",
     "changelog",
@@ -36,9 +30,6 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngoldman/changelog-parser.git"
-  },
-  "scripts": {
-    "test": "standard && node test | tap-spec"
+    "url": "https://github.com/wwwy3y3/changelog-parser.git"
   }
 }
